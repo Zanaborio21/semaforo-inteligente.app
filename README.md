@@ -21,17 +21,3 @@ Puedes probar la aplicación en el siguiente enlace:
      - Peatones.
    - Recomendaciones sobre quién tiene prioridad.
 
-## ✨ Ejemplo
-
-**Entrada**:
-- Tráfico en la calle principal: Moderado.
-- Tráfico en la calle secundaria: Mucho.
-- Peatones: No.
-
-**Salida**:
-- Calle Principal: Verde.
-- Calle Secundaria: Rojo.
-- Peatones: Rojo.
-
-**Recomendación**:
-Calle Principal tiene prioridad.
