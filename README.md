@@ -1,19 +1,37 @@
-# 🎈 Blank app template
+# 🚦 Semáforo Inteligente
 
-A simple Streamlit app template for you to modify!
+Este proyecto simula un sistema de semáforos que toma decisiones basadas en el tráfico y la presencia de peatones utilizando **Python** y **Streamlit**. El objetivo es optimizar el flujo vehicular y garantizar la seguridad de los peatones.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🌐 Accede a la Aplicación
 
-### How to run it on your own machine
+Puedes probar la aplicación en el siguiente enlace:  
+[Semáforo Inteligente](https://blank-app-zcmd4wzboas.streamlit.app/)
 
-1. Install the requirements
+## 🚦 Funcionalidad
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+1. **Entrada**:
+   - Tráfico en la calle principal: `Mucho`, `Moderado`, `Nada`.
+   - Tráfico en la calle secundaria: `Mucho`, `Moderado`, `Nada`.
+   - Presencia de peatones: `Sí` o `No`.
 
-2. Run the app
+2. **Salida**:
+   - Estado de los semáforos:
+     - Calle principal.
+     - Calle secundaria.
+     - Peatones.
+   - Recomendaciones sobre quién tiene prioridad.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## ✨ Ejemplo
+
+**Entrada**:
+- Tráfico en la calle principal: Moderado.
+- Tráfico en la calle secundaria: Mucho.
+- Peatones: No.
+
+**Salida**:
+- Calle Principal: Verde.
+- Calle Secundaria: Rojo.
+- Peatones: Rojo.
+
+**Recomendación**:
+Calle Principal tiene prioridad.
